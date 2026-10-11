@@ -14,4 +14,4 @@ export const firebaseAuth = getAuth(firebaseApp);
 
 // URL base de la API — en producción apunta a Render
 export const API_URL = (window as Window & { __API_URL__?: string }).__API_URL__
-  ?? (location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://sistema-escolar-api.onrender.com');
+  ?? (location.hostname === 'localhost' ? 'http://localhost:3000' : 'https://systema-escolar.onrender.com');
