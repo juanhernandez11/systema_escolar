@@ -14,6 +14,8 @@
 /functions/.secret.local
 /functions/lib/
 /service-account*.json
+/api/json/
+/api/.env
 firebase-debug.log
 firebase-debug.*.log
 database-debug.log
